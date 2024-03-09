@@ -1,0 +1,25 @@
+//This Code calculates my normal Age into my Age in Dog Years
+
+//my normal human Age
+let myAge = 21;
+
+//In the first 2 Years a Dog ages much quicker
+let earlyYears = 2;
+
+// calculating the Age in Dog years for the first 2 years
+earlyYears *= 10.5;
+
+//Subtracting the 2 normal years from my Age as they are already calculated
+let laterYears = myAge - 2;
+
+//calculating the number of Dog Years in my later Years
+laterYears *= 4;
+
+//calculating my Age in Dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+//Setting my Name and putting the name in lowercase letters
+let myName = 'Adam'.toLowerCase();
+
+//logging a full sentence with all Info
+console.log(`my Name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
